@@ -1,0 +1,11 @@
+# Direct dependencies used by the submitted Python 3.12 run.
+# Full environment snapshot: requirements-lock.txt
+# Install JupyterLab separately if you want an interactive notebook editor.
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.5.3
+matplotlib==3.11.2
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.1
+ipykernel==7.3.0

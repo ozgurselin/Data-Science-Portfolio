@@ -1,0 +1,20 @@
+{
+  "code_cells_executed": 7,
+  "cell_execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "cell_errors": 0,
+  "script_cell_source_matches": 7,
+  "embedded_html_plots": 3,
+  "epochs": 20,
+  "test_accuracy": 0.8873,
+  "best_validation_epoch": 19,
+  "checkpoint_reload_check": "passed (assertion in code cell 7)",
+  "visual_review": "Learning curves and prediction figure reviewed; titles and labels readable."
+}
