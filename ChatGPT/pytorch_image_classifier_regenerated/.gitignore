@@ -1,0 +1,5 @@
+datasets/
+.jupyter/
+.ipython/
+.mplconfig/
+__pycache__/

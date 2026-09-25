@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "epochs": 20,
+  "batch_size": 32,
+  "learning_rate": 0.1,
+  "best_epoch": 19,
+  "best_validation_accuracy": 0.891,
+  "final_training_accuracy": 0.9285818181818182,
+  "test_loss": 0.32553549702763557,
+  "test_accuracy": 0.8873,
+  "training_seconds": 45.72431287500149,
+  "parameter_count": 266610,
+  "python": "3.12.14",
+  "torch": "2.8.0",
+  "torchvision": "0.23.0",
+  "device": "cpu"
+}
