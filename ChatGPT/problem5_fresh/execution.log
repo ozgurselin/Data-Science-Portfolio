@@ -1,0 +1,60 @@
+/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/selinozgur/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/selinozgur/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+2026-09-26 11:48:05.514 system_profiler[10320:442994] XType: Using static font registry.
+[IPKernelApp] ERROR | Exception during subprocesses termination [Errno 1] Operation not permitted (originated from sysctl() malloc 1/3)
+Traceback (most recent call last):
+  File "/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 1529, in _at_shutdown
+    await self._progressively_terminate_all_children()
+  File "/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 1507, in _progressively_terminate_all_children
+    if not self._process_children():
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 1490, in _process_children
+    all_children = kernel_process.children(recursive=True)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/psutil/__init__.py", line 978, in children
+    ppid_map = _ppid_map()
+               ^^^^^^^^^^^
+  File "/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/psutil/__init__.py", line 256, in _ppid_map
+    for pid in pids():
+               ^^^^^^
+  File "/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/psutil/__init__.py", line 1485, in pids
+    ret = sorted(_psplatform.pids())
+                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/selinozgur/Documents/Codex/2026-09-25/he-purpose-of-this-assignment-is/work/py312/lib/python3.12/site-packages/psutil/_psosx.py", line 320, in pids
+    ls = cext.pids()
+         ^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted (originated from sysctl() malloc 1/3)
+{
+  "method": "nbconvert ExecutePreprocessor; fresh Python kernel; all cells executed",
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "error_outputs": 0,
+  "embedded_png_outputs": 2,
+  "script_cells_exact_match": true,
+  "execution_and_export_seconds": 55.37717916600013,
+  "script_sha256": {
+    "01_setup.py": "d9acf40e3bdc40dc23d525bc1c048514fe5f25c71e68e79dc0acc07f4404cee7",
+    "02_dataset.py": "fb9982b7d3796909418ae1b605eb3bbdf9ee623a1d97a1c100205b19297791e9",
+    "03_partition.py": "399034ec8446cc1ef9f79ce4b5dd49f7527be6effe1b45603697edfd5ff02140",
+    "04_loaders.py": "59bffec01d697e884f70f742e59c4eafbc825724598a6a5fc7308ab21ed420b9",
+    "05_model.py": "fa3d63a1076b7c51c6170c203e50bd18ad18675dd9a7d953e621a04e1be085be",
+    "06_loss_optimizer.py": "fe99dbc968ec62fa3ccdef370d4a50bf95439408049f117230d58e29c3f1fbbe",
+    "07_helpers.py": "3538fbfeba12a9b82e4d979acfa045bc68ed017b8f3f080df4c41d27b6e79fca",
+    "08_training.py": "01b9dd31c90dd6d434347d3f4103115712109810d35f2e444c95eafbad5c67d8",
+    "09_learning_curves.py": "29183aaa017ead373e397249b0493f7a904ea1d3520c1e218b2b0024a9d10df4",
+    "10_predictions_test.py": "42f80e3b61bf2c81cc019fec951db9ed0000840a251b53c50b22387b08c637fd"
+  }
+}

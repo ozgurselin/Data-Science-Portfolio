@@ -1,0 +1,35 @@
+{
+  "versions": {
+    "python": "3.12.14",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "numpy": "2.5.3",
+    "device": "cpu"
+  },
+  "seed": 42,
+  "epochs": 20,
+  "parameters": 266610,
+  "training_seconds": 45.62181849999979,
+  "final_epoch": {
+    "epoch": 20,
+    "train_loss": 0.1877678490410179,
+    "train_accuracy": 0.9278181818181818,
+    "validation_loss": 0.3510256330013275,
+    "validation_accuracy": 0.8752
+  },
+  "test": {
+    "loss": 0.3664569815278053,
+    "accuracy": 0.8775,
+    "count": 10000
+  },
+  "predicted_labels": [
+    7,
+    4,
+    2
+  ],
+  "actual_labels": [
+    7,
+    4,
+    2
+  ]
+}

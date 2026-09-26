@@ -1,0 +1,5 @@
+torch.manual_seed(SEED)
+train_loader = DataLoader(train_data, batch_size=32, shuffle=True, num_workers=0)
+valid_loader = DataLoader(valid_data, batch_size=32, num_workers=0)
+test_loader = DataLoader(test_data, batch_size=32, num_workers=0)
+print("Batches:", len(train_loader), len(valid_loader), len(test_loader))

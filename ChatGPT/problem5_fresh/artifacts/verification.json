@@ -1,0 +1,31 @@
+{
+  "method": "nbconvert ExecutePreprocessor; fresh Python kernel; all cells executed",
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "error_outputs": 0,
+  "embedded_png_outputs": 2,
+  "script_cells_exact_match": true,
+  "execution_and_export_seconds": 55.37717916600013,
+  "script_sha256": {
+    "01_setup.py": "d9acf40e3bdc40dc23d525bc1c048514fe5f25c71e68e79dc0acc07f4404cee7",
+    "02_dataset.py": "fb9982b7d3796909418ae1b605eb3bbdf9ee623a1d97a1c100205b19297791e9",
+    "03_partition.py": "399034ec8446cc1ef9f79ce4b5dd49f7527be6effe1b45603697edfd5ff02140",
+    "04_loaders.py": "59bffec01d697e884f70f742e59c4eafbc825724598a6a5fc7308ab21ed420b9",
+    "05_model.py": "fa3d63a1076b7c51c6170c203e50bd18ad18675dd9a7d953e621a04e1be085be",
+    "06_loss_optimizer.py": "fe99dbc968ec62fa3ccdef370d4a50bf95439408049f117230d58e29c3f1fbbe",
+    "07_helpers.py": "3538fbfeba12a9b82e4d979acfa045bc68ed017b8f3f080df4c41d27b6e79fca",
+    "08_training.py": "01b9dd31c90dd6d434347d3f4103115712109810d35f2e444c95eafbad5c67d8",
+    "09_learning_curves.py": "29183aaa017ead373e397249b0493f7a904ea1d3520c1e218b2b0024a9d10df4",
+    "10_predictions_test.py": "42f80e3b61bf2c81cc019fec951db9ed0000840a251b53c50b22387b08c637fd"
+  }
+}

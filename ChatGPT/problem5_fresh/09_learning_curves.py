@@ -1,0 +1,16 @@
+epochs = [row["epoch"] for row in history]
+fig, axes = plt.subplots(1, 2, figsize=(12, 4), constrained_layout=True)
+axes[0].plot(epochs, [r["train_accuracy"] for r in history], "o-", label="Training (during epoch)")
+axes[0].plot(epochs, [r["validation_accuracy"] for r in history], "s-", label="Validation (end of epoch)")
+axes[0].set(title="Training accuracy versus epoch", xlabel="Epoch", ylabel="Accuracy")
+axes[0].legend()
+axes[1].plot(epochs, [r["train_loss"] for r in history], label="Training")
+axes[1].plot(epochs, [r["validation_loss"] for r in history], label="Validation")
+axes[1].set(title="Cross-entropy loss", xlabel="Epoch", ylabel="Loss")
+axes[1].legend()
+for ax in axes:
+    ax.set_xticks([1, 5, 10, 15, 20])
+    ax.grid(alpha=0.3)
+fig.savefig(ARTIFACTS / "learning_curves.png", dpi=160)
+plt.show()
+plt.close(fig)
