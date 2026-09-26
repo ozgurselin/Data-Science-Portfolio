@@ -28,3 +28,10 @@ self-contained notebook, run it end to end, export to HTML, and commit to GitHub
 ## Results (20 epochs, seed 42)
 - Training accuracy 78.1% → **92.8%**; validation best 88.9% (epoch 12), final 88.0%
 - **Test accuracy 88.3%**; 3/3 sample validation images classified correctly; 266,610 parameters
+
+
+## Git publication update — September 26, 2026
+
+The user subsequently authorized pushing all repository changes, superseding the earlier local-only instruction. Commit `6841fea` contains the fresh Problem 5 implementation. Commit `bdc98e6` preserves all remaining pending changes, including submission-file renames and Finder metadata. Earlier local commits `b18e247`, `5d5f99f`, and `3efc908` were also included in the intended push scope.
+
+Attempted `git push origin Selin` to `https://github.com/ozgurselin/Data-Science-Portfolio.git`. It failed with `fatal: could not read Username for 'https://github.com': Device not configured`. No successful push is claimed. GitHub CLI was unavailable. A noninteractive SSH authentication check also stopped because no trusted GitHub host key was configured; it did not push anything or change the remote. All changes remain committed locally. These summary updates are saved in a subsequent documentation commit. GitHub authentication must be configured before retrying `git push origin Selin`.

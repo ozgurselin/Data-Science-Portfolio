@@ -39,3 +39,10 @@ This summary records the user messages and Codex work in this conversation. Code
 All seven code cells completed without notebook errors on Python 3.12.14, PyTorch 2.8.0 and TorchVision 0.23.0. The full 20-epoch run reached 92.86% final training accuracy. Epoch 19 had the best validation accuracy, 89.10%; that checkpoint achieved 88.73% test accuracy and 0.3255 test cross-entropy. The save/reload logits check passed. Training accuracy increased more consistently than validation accuracy, indicating an increasing generalization gap.
 
 A sandbox restriction produced a kernel-shutdown process-inspection warning after execution; all classifier cells and the HTML export completed successfully. A repeat execution using the cached dataset removes the initial download-progress noise from the submitted rendering.
+
+
+## Git publication update — September 26, 2026
+
+The user subsequently authorized pushing all repository changes, superseding the earlier local-only instruction. Commit `6841fea` contains the fresh Problem 5 implementation. Commit `bdc98e6` preserves all remaining pending changes, including submission-file renames and Finder metadata. Earlier local commits `b18e247`, `5d5f99f`, and `3efc908` were also included in the intended push scope.
+
+Attempted `git push origin Selin` to `https://github.com/ozgurselin/Data-Science-Portfolio.git`. It failed with `fatal: could not read Username for 'https://github.com': Device not configured`. No successful push is claimed. GitHub CLI was unavailable. A noninteractive SSH authentication check also stopped because no trusted GitHub host key was configured; it did not push anything or change the remote. All changes remain committed locally. These summary updates are saved in a subsequent documentation commit. GitHub authentication must be configured before retrying `git push origin Selin`.
